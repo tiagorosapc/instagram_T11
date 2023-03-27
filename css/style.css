@@ -1,0 +1,82 @@
+body{
+    background-color: #E5E5E5;
+}
+
+ion-icon{
+    width: 22px;
+    height: 22px;
+}
+
+.header{
+    background-color: white;
+    height: 54px;
+    border:1px solid #DBDBDB;
+    width:100%;
+
+    position:fixed;
+    top: 0;
+    left:0;
+}
+
+.header .container{
+    width:935px;
+    height: 54px;
+    margin:0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width:150px;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.campo_busca{
+    background-color: #FAFAFA;
+    color:#979797;
+    width: 215px;
+    height: 28px;
+    border:1px solid #979797;
+
+    border-radius: 5px;
+}
+
+.campo_busca::placeholder{
+    color:#979797;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+
+.opcoes{
+    width:150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    width:935px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top:88px;
+
+    display: flex;
+}
+
+.main{
+    background-color: green;
+    width: 614px;
+    height: 600px;
+}
+
+.sidebar{
+    background-color: lightblue;
+    width: 321px;
+    height: 300px;
+}
